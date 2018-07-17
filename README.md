@@ -2,8 +2,8 @@
 
 두 수 `x`, `y`를 입력받아 큰 수를 반환하는 함수(larger)를 작성하세요.
 
-예:
 ```
+예:
 larger(4, 12); -> 12
 ```
 
@@ -11,8 +11,8 @@ larger(4, 12); -> 12
 
 세 수 `x`, `y`, `z`를 입력받아 그 곱이 양수이면 `true`, 0 혹은 음수이면 `false`, 둘 다 아니면 에러를 발생시키는 함수(isPositive)를 작성하세요.
 
-예:
 ```
+예:
 isPositive(1, 2, 10) -> true
 isPositive(-1, 4, 5) -> false
 isPositive('열다섯', 10, 2) -> Error: 입력값이 잘못되었습니다.
@@ -28,8 +28,8 @@ throw new Error('입력값이 잘못되었습니다.');
 
 어떤 숫자(num)가 짝수인지 홀수인지 출력하는 함수(printEvenOdd)를 작성하세요.
 
-예:
 ```
+예:
 printEvenOdd(5) -> '5: 홀수'
 printEvenOdd(10) -> '10: 짝수'
 ```
@@ -38,8 +38,8 @@ printEvenOdd(10) -> '10: 짝수'
 
 문제 3번의 함수(printEvenOdd)를 이용해서, 1부터 20까지의 수가 각각 짝수인지 홀수인지 출력하는 프로그램을 작성하세요.
 
-결과값:
 ```
+결과값:
 1: 홀수
 2: 짝수
 3: 홀수
@@ -66,8 +66,8 @@ printEvenOdd(10) -> '10: 짝수'
 
 세 수를 입력받아 큰 것부터 차례대로 출력하는 함수(printLargerFirst)를 작성하세요.
 
-예:
 ```
+예:
 printLargerFirst(5, 15, -2) -> 15, 5, -2
 ```
 
@@ -75,8 +75,8 @@ printLargerFirst(5, 15, -2) -> 15, 5, -2
 
 두 문자열 `str1`, `str2`를 입력받아, 대소문자를 구분하지 않고(case insensitive) 두 문자열이 동일한지를 반환하는 함수(insensitiveEqual)를 작성하세요.
 
-예:
 ```
+예:
 insensitiveEqual('hello', 'hello'); -> true
 insensitiveEqual('hello', 'Hello'); -> true
 insensitiveEqual('hello', 'world'); -> false
@@ -86,8 +86,8 @@ insensitiveEqual('hello', 'world'); -> false
 
 이메일 주소를 입력받아, 아이디 부분을 별표(`*`)로 가린 새 문자열을 반환하는 함수(hideId)를 작성하세요.
 
-예:
 ```
+예:
 hideId('ksh@fastcampus.co.kr') -> '***@fastcampus.co.kr'
 ```
 
@@ -95,8 +95,8 @@ hideId('ksh@fastcampus.co.kr') -> '***@fastcampus.co.kr'
 
 숫자로만 이루어진 문자열을 입력받아, 연속된 두 짝수 사이에 하이픈(-)을 끼워넣은 문자열을 반환하는 함수(insertHyphen)를 작성하세요.
 
-예:
 ```
+예:
 insertHyphen('1122334455'); -> '112-2334-455'
 insertHyphen('437027423'); -> '4370-274-23'
 ```
@@ -105,8 +105,8 @@ insertHyphen('437027423'); -> '4370-274-23'
 
 두 정수 `start`, `end`를 입력받아, `start`부터 `end`까지의 모든 정수를 배열로 반환하는 함수(range)를 작성하세요.
 
-예:
 ```
+예:
 range(3, 6); -> [3, 4, 5, 6]
 range(-4, 0); -> [-4, -3, -2, -1, 0]
 ```
@@ -115,8 +115,8 @@ range(-4, 0); -> [-4, -3, -2, -1, 0]
 
 수 타입의 값으로만 이루어진 배열 `arr`를 입력받아, 그 값들의 합을 구하는 함수(sum)를 작성하세요.
 
-예:
 ```
+예:
 sum([1, 2, 3]); -> 6
 ```
 
@@ -124,7 +124,7 @@ sum([1, 2, 3]); -> 6
 
 두 정수 `min`, `max` 를 입력받아, `min` 이상 `max` 미만인 임의의 정수를 반환하는 함수(randomInteger)를 작성하세요.
 
-예:
 ```
+예:
 randomInteger(1, 7); -> (1, 2, 3, 4, 5, 6 중 임의의 수 하나)
 ```
